@@ -62,4 +62,4 @@ Ganti `YOUR_USERNAME` dengan username GitHub kamu.
 - Edit profil + logout
 
 ## Base URL
-API: https://cybershop.co-id.id/api/
+
