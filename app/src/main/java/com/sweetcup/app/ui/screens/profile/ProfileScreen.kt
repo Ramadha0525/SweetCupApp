@@ -26,6 +26,7 @@ import androidx.datastore.preferences.core.stringPreferencesKey
 import androidx.datastore.preferences.preferencesDataStore
 import androidx.navigation.NavController
 import com.sweetcup.app.data.api.RetrofitClient
+import kotlinx.coroutines.flow.first
 import com.sweetcup.app.data.model.ProfileUpdateRequest
 import com.sweetcup.app.data.repository.AuthRepository
 import com.sweetcup.app.ui.navigation.Screen

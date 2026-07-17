@@ -24,7 +24,6 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import coil.compose.AsyncImage
-import coil.decode.Base64Decoder
 import coil.request.ImageRequest
 import com.sweetcup.app.data.model.Category
 import com.sweetcup.app.data.model.Product

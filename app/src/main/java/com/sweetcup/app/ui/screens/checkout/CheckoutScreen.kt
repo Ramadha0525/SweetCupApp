@@ -28,6 +28,7 @@ import com.sweetcup.app.data.repository.OrderRepository
 import com.sweetcup.app.data.repository.SettingsRepository
 import com.sweetcup.app.ui.components.formatCurrency
 import com.sweetcup.app.ui.navigation.Screen
+import kotlinx.coroutines.flow.first
 import com.sweetcup.app.ui.theme.*
 import kotlinx.coroutines.launch
 
@@ -244,6 +245,7 @@ fun CheckoutScreen(
     }
 }
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 private fun PaymentOption(
     title: String,

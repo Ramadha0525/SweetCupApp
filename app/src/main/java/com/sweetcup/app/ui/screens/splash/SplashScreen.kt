@@ -34,9 +34,11 @@ fun SplashScreen(navController: NavController) {
 
     val tokenKey = stringPreferencesKey("auth_token")
 
+    val context = LocalContext.current
+
     LaunchedEffect(Unit) {
         delay(1500)
-        val prefs = dataStore.data.first()
+        val prefs = context.dataStore.data.first()
         val token = prefs[tokenKey]
         if (!token.isNullOrEmpty()) {
             RetrofitClient.setToken(token)
